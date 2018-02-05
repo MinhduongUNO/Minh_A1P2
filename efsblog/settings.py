@@ -84,7 +84,7 @@ DATABASES = {
         'PASSWORD': 'Lovemylife243?',
         'HOST': 'Minhduong.mysql.pythonanywhere-services.com',
         'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+            'init_command': 'SET innodb_strict_mode=1',
         },
     }
 }
